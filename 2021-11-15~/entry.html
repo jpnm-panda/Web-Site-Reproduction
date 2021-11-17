@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>100DAysOfCode-2021-11-15~</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1 class="radius-container-title">KOMA-NATU Web</h1>
+            <p>あなたのおうちの自慢の猫ちゃんを投稿してください♪</p>
+        </header>
+
+        <main class="white-container">
+            <form id="entry-form" action="#" method="post">
+
+                <p><strong>※は必須項目です</strong></p>
+
+                <table class="entry-table">
+                    <caption>猫ちゃんの情報</caption>
+                    <tbody>
+                        <tr>
+                            <th>お名前※</th>
+                            <td><input class="text-box" type="text" name="cat-name" required autofocus></td>
+                        </tr>
+                        <tr>
+                            <th>年齢※</th>
+                            <td>
+                                <select class="pointer" name="age" required>
+                                    <option value="" selected>選択してください</option>
+                                    <option value="0">1歳未満</option>
+                                    <option value="1">1~5歳</option>
+                                    <option value="2">6~10歳</option>
+                                    <option value="3">16~20歳</option>
+                                    <option value="4">20歳以上</option>
+                                    <option value="5">不明</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>性別※</th>
+                            <td>
+                                <input type="radio" name="sex" value="男の子" id="male" required checked><label
+                                    class="pointer" for="male">男の子</label>
+                                <input type="radio" name="sex" value="女の子" id="female" required><label
+                                    for="female">女の子</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>好物</th>
+                            <td>
+                                <input type="checkbox" name="favorite" value="お魚" id="favorite1"><label class="pointer"
+                                    for="favorite1">お魚</label>
+                                <input type="checkbox" name="favorite" value="お肉" id="favorite2"><label class="pointer"
+                                    for="favorite2">お肉</label>
+                                <input type="checkbox" name="favorite" value="カリカリ" id="favorite3"><label
+                                    class="pointer" for="favorite3">カリカリ</label>
+                                <input type="checkbox" name="favorite" value="猫缶" id="favorite4"><label class="pointer"
+                                    for="favorite4">猫缶</label>
+                                <input type="checkbox" name="favorite" value="ちゅーる" id="favorite5"><label
+                                    class="pointer" for="favorite5">ちゅーる</label>
+                                <input type="checkbox" name="favorite" value="その他" id="favorite6"><label class="pointer"
+                                    for="favorite6">その他</label>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>写真※</th>
+                            <td><input class="pointer" type="file" name="photo" required></td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <table class="entry-table">
+                    <caption>飼い主さんの情報</caption>
+                    <tbody>
+                        <tr>
+                            <th>お名前※</th>
+                            <td>
+                                <input class="text-box" type="text" name="cat-owner-name" required placeholder="黒猫小町">
+                                <small>※ハンドルネーム可</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>メールアドレス※</th>
+                            <td>
+                                <input class="text-box" type="email" name="email" required
+                                    placeholder="sample@gmail.com">
+                                <small>※半角で入力してください</small>
+                            </td>
+                        </tr>
+                        <tr>
+                            <th>コメント</th>
+                            <td><textarea class="text-box" name="comment" cols="40" rows="4"></textarea></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="btn-wrapper">
+                    <input class="entry-btn pointer" type="reset" value="クリア">
+                    <input class="entry-btn submit-btn pointer" type="submit" value="投稿">
+                </div>
+            </form>
+        </main>
+
+        <footer>
+            <p><small>Copyright © KOMA-NATSU Web All Rights Reserved.</small></p>
+        </footer>
+    </body>
+
+</html>
