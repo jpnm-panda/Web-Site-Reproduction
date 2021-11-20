@@ -1,0 +1,20 @@
+.header-container {
+    background-color: brown;
+    color: antiquewhite;
+    padding: 20px;
+    font-size: large;
+}
+
+.footer-container {
+    background-color: chocolate;
+    color: azure;
+    height: auto;
+    padding: 20px;
+    font-size: large;
+    clear: both;
+}
+
+.main-wrap {
+    margin: 0px auto;
+    width: 100px;
+}
