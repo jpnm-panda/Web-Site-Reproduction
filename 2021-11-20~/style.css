@@ -60,5 +60,14 @@
 .pos-absolute-right {
     position: absolute;
     top: 0;
-    right: -40px;
+    right: -70px;
+}
+
+.pos-relative-right {
+    width: 100px;
+    height: 100px;
+    float: right;
+    position: relative;
+    top: 60px;
+    right: -100px;
 }
