@@ -1,8 +1,15 @@
 .header-container {
+    width: 100%;
+    height: 67px;
     background-color: brown;
     color: antiquewhite;
     padding: 20px;
     font-size: large;
+    display: flex;
+}
+
+.header-container strong {
+    margin: 20px auto 20px 20px;
 }
 
 .footer-container {
@@ -15,6 +22,43 @@
 }
 
 .main-wrap {
-    margin: 0px auto;
-    width: 100px;
+    margin: 120px auto 100px auto;
+    padding: 10px 20px 10px 20px;
+    background-color: blanchedalmond;
+    width: fit-content;
+    position: relative;
+    z-index: -1;
+}
+
+.content-wrap {
+    margin: 20px auto;
+    padding: 10px;
+    background-color: white;
+    width: fit-content;
+}
+
+.nav-list {
+    padding: 20px auto;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.tag {
+    background-color: burlywood;
+    color: beige;
+}
+
+.pos-fix-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.pos-absolute-right {
+    position: absolute;
+    top: 0;
+    right: -40px;
 }
