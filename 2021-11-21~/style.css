@@ -1,8 +1,44 @@
 .flex {
     display: flex;
+    width: 900px;
 }
 
 .flexbox {
     list-style: none;
     border: solid 1px beige;
+    background-color: blanchedalmond;
+    padding: 20px;
+    color: brown;
+}
+
+.jst-sb>.flex {
+    justify-content: space-between;
+}
+
+.jst-st>.flex {
+    justify-content: start;
+}
+
+.jst-en>.flex {
+    justify-content: end;
+}
+
+.al-st>.flex {
+    align-items: stretch;
+}
+
+.al-fs>.flex {
+    align-items: flex-start;
+}
+
+.al-en>.flex {
+    align-items: flex-end;
+}
+
+.al-ce>.flex {
+    align-items: flex-end;
+}
+
+.al-ba>.flex {
+    align-items: baseline;
 }
