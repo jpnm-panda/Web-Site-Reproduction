@@ -1,6 +1,6 @@
 /* grid1.html */
 
-.container {
+.container-1 {
     display: grid;
     grid-template-rows: 100px 1fr 100px;
     grid-template-columns: 200px 1fr 200px;
@@ -38,4 +38,18 @@
 
 .main-box {
     height: 900px;
+}
+
+/* grid2.html */
+.container-2 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.container-2 li {
+    list-style: none;
+    background-color: aquamarine;
+    padding: 20px;
+    color: white;
 }
