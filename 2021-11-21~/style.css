@@ -139,3 +139,35 @@
     background-color: burlywood;
     flex-shrink: 0;
 }
+
+/* flexbox3.html */
+
+.header-container {
+    background-color: brown;
+    color: antiquewhite;
+    padding: 20px;
+    font-size: large;
+}
+
+.footer-container {
+    background-color: chocolate;
+    color: azure;
+    height: auto;
+    padding: 20px;
+    font-size: large;
+    clear: both;
+}
+
+
+
+.fl-ml-col>.flex {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    margin: 20px auto 0 auto;
+}
+
+.fl-ml-col .flexbox {
+    width: 225px;
+    margin-bottom: 20px;
+}
