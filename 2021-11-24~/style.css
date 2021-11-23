@@ -1,0 +1,41 @@
+/* grid1.html */
+
+.container {
+    display: grid;
+    grid-template-rows: 100px 1fr 100px;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-areas:
+        "header header header"
+        "aside-left main aside-right"
+        "footer footer footer";
+}
+
+.header {
+    background-color: blanchedalmond;
+    grid-area: header;
+    height: 350px;
+}
+
+.main {
+    background-color: beige;
+    grid-area: main;
+}
+
+.aside-left {
+    background-color: chocolate;
+    grid-area: aside-left;
+}
+
+.aside-right {
+    background-color: darkgoldenrod;
+    grid-area: aside-right;
+}
+
+.footer {
+    background-color: coral;
+    grid-area: footer;
+}
+
+.main-box {
+    height: 900px;
+}
