@@ -42,3 +42,34 @@
 .al-ba>.flex {
     align-items: baseline;
 }
+
+.fl-wrap>.flex {
+    flex-wrap: wrap;
+}
+
+.fl-nowrap>.flex {
+    flex-wrap: nowrap;
+}
+
+.fl-wrap-re>.flex {
+    flex-wrap: wrap-reverse;
+}
+
+.alc-st>.flex {
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: stretch;
+
+}
+
+.alc-en>.flex {
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: flex-end;
+}
+
+.alc-bt>.flex {
+    flex-wrap: wrap;
+    height: 300px;
+    align-content: space-between;
+}
