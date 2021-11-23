@@ -93,3 +93,49 @@
 .als-col-rv>.flex {
     flex-direction: column-reverse;
 }
+
+.al-slf>.flex li:nth-child(1) {
+    align-self: stretch;
+}
+
+.al-slf>.flex li:nth-child(2) {
+    align-self: flex-start;
+}
+
+.al-slf>.flex li:nth-child(3) {
+    align-self: flex-end;
+}
+
+.al-slf>.flex li:nth-child(4) {
+    align-self: center;
+}
+
+.al-slf>.flex li:nth-child(5) {
+    align-self: baseline;
+}
+
+.order>.flex li:nth-child(1) {
+    order: 1;
+}
+
+.order>.flex li:nth-child(3) {
+    order: 2;
+}
+
+.fl-grw>.flex li:nth-child(2) {
+    flex-grow: 1;
+}
+
+.fl-shrink>.flex li {
+    flex-grow: 1;
+
+}
+
+.fl-shrink>.flex li {
+    width: 350px;
+}
+
+.fl-shrink>.flex li:nth-child(1) {
+    background-color: burlywood;
+    flex-shrink: 0;
+}
