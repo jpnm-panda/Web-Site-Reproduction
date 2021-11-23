@@ -1,3 +1,5 @@
+/* flexbox1 */
+
 .flex {
     display: flex;
     width: 900px;
@@ -72,4 +74,22 @@
     flex-wrap: wrap;
     height: 300px;
     align-content: space-between;
+}
+
+/* flexbox2 */
+
+.als-row>.flex {
+    flex-direction: row;
+}
+
+.als-row-rv>.flex {
+    flex-direction: row-reverse;
+}
+
+.als-col>.flex {
+    flex-direction: column;
+}
+
+.als-col-rv>.flex {
+    flex-direction: column-reverse;
 }
