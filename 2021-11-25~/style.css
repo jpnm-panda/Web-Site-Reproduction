@@ -45,6 +45,12 @@ body {
     border-radius: 10px;
     color: #ff705b;
     box-shadow: 0 0 5px 2px #ffd0ad inset;
+    transition: background-color 0s, transform 1s;
+}
+
+.sub-heading:hover {
+    background-color: #ffd0ad;
+    transform: scale(0.9, 0.9);
 }
 
 .sub-heading span {
@@ -123,14 +129,27 @@ footer {
 
 .radius-img {
     border-radius: 100%;
+    transition: 1s transform ease-out 0.5s;
+}
+
+.radius-img:hover {
+    transform: translate(700px, 0);
 }
 
 .rotate-img {
+    transition: transform 1s;
+}
+
+.rotate-img:hover {
     transform: rotate(-10deg);
 }
 
 .skew-img {
     transform: skew(-10deg, -10deg);
+}
+
+.box-nav li:nth-child(2):hover {
+    transition: 1s;
 }
 
 .box-nav li:nth-child(2):hover {
