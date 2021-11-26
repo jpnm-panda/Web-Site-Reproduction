@@ -132,3 +132,8 @@ footer {
 .skew-img {
     transform: skew(-10deg, -10deg);
 }
+
+.box-nav li:nth-child(2):hover {
+    transform-origin: 50% 50%;
+    transform: scale(2, 1);
+}
