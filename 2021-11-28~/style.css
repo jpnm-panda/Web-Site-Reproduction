@@ -1,18 +1,14 @@
 @charset "utf-8";
 
-@media screen and (max-width: 640px) {
-    body {
-        background-color: red;
-    }
-}
-
 body {
     background: #fbf9cc url(./img/bg.png) repeat-x;
 }
 
 .white-container {
+    box-sizing: border-box;
+    max-width: 960px;
     background-color: #fff;
-    padding: 40px 80px;
+    padding: 4% 8%;
     margin: 40px auto;
     width: 960px;
 }
@@ -65,7 +61,7 @@ body {
     list-style-type: none;
     display: inline-block;
     width: 180px;
-    margin: 0 10px;
+    margin: 5px 10px;
 }
 
 .box-nav a {
@@ -128,5 +124,47 @@ footer {
 }
 
 .radius-img {
+
     border-radius: 100%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.cat-img {
+    width: 60%;
+}
+
+.profile-img {
+    width: 40%;
+}
+
+@media screen and (max-width: 640px) {
+
+    .box-nav {
+        display: block;
+        width: 60%;
+        margin: 0 auto 10px;
+    }
+
+    #profile img.float-left {
+        float: none;
+    }
+
+    #profile {
+        text-align: center;
+    }
+
+    #profile .main-heading dl {
+        text-align: left;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .main-heading {
+        width: 200px;
+        font-size: 200%;
+    }
 }
