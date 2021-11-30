@@ -57,10 +57,17 @@ body {
 }
 
 .box-nav li {
-    list-style-type: none;
     display: inline-block;
     width: 180px;
     margin: 5px 10px;
+}
+
+/* CSS リセット */
+ul {
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
 }
 
 .box-nav a {
@@ -162,7 +169,7 @@ img {
 }
 
 @media screen and (max-width: 400px) {
-    .main-heading {
+    .radius-container-title {
         width: 200px;
         font-size: 200%;
     }
