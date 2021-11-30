@@ -8,9 +8,8 @@ body {
     box-sizing: border-box;
     max-width: 960px;
     background-color: #fff;
-    padding: 4% 8%;
     margin: 40px auto;
-    width: 960px;
+    padding: 4% 8%;
 }
 
 .white-container>section {
