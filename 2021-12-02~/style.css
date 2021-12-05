@@ -1,1 +1,18 @@
 @charset "utf-8";
+
+.coolers {
+    /* primary color */
+    color: #4d941a;
+
+    /* secondary color */
+    color: #d8c7a0;
+
+    /* staff color */
+    color: #fcf2d9;
+
+    /* 文字色 */
+    color: #59220d;
+
+    /* :hover の文字色 */
+    color: #d53e04;
+}
