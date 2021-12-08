@@ -178,10 +178,6 @@ a:hover img {
     background-size: cover;
 }
 
-.gnav {
-    background: #d8c7a0;
-}
-
 .footer {
     padding: 20px 0;
     background: #d8c7a0;
@@ -200,4 +196,61 @@ a:hover img {
     top: 0;
     width: 100%;
     height: 100%;
+}
+
+/* container */
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+/* global navigation */
+.gnav {
+    background: #d8c7a0;
+}
+
+.gnav ul {
+    display: flex;
+}
+
+.gnav li {
+    width: 25%;
+}
+
+.gnav a {
+    display: block;
+    padding: 15px 0;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.gnav a:hover {
+    background: #ecdfc2;
+}
+
+/* information */
+
+.info-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.info-list dt {
+    width: 30%;
+    padding: 10px 0;
+    border-top: 1px #d8c7a0 dotted;
+}
+
+.info-list dd {
+    width: 70%;
+    padding: 10px 0;
+    border-top: 1px #d8c7a0 dotted;
+}
+
+.info-list :first-of-type {
+    border-top: none;
 }
