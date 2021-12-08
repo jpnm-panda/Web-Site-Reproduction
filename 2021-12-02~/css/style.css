@@ -183,6 +183,12 @@ a:hover img {
     background: #d8c7a0;
 }
 
+/* section */
+
+.section {
+    margin: 40px 0;
+}
+
 /* Google Map */
 
 .google-map {
@@ -253,4 +259,20 @@ a:hover img {
 
 .info-list :first-of-type {
     border-top: none;
+}
+
+/* heading */
+.heading {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #4d941a;
+    color: #4d941a;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+/* menu-list */
+
+.menu-list>.col {
+    text-align: center;
+    border: 1px solid #d8c7a0;
 }
