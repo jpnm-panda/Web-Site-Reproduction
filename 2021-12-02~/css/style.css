@@ -178,9 +178,24 @@ a:hover img {
     background-size: cover;
 }
 
-.footer {
-    padding: 20px 0;
-    background: #d8c7a0;
+.header-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    max-width: 640px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.header-logo {
+    margin-bottom: 20px;
+}
+
+.header-msg {
+    line-height: 1.8;
 }
 
 /* section */
@@ -205,6 +220,7 @@ a:hover img {
 }
 
 /* container */
+
 .container {
     max-width: 940px;
     margin: 0 auto;
@@ -213,6 +229,7 @@ a:hover img {
 }
 
 /* global navigation */
+
 .gnav {
     background: #d8c7a0;
 }
@@ -261,6 +278,28 @@ a:hover img {
     border-top: none;
 }
 
+.staff-heading {
+    display: block;
+    background-color: #d8c7a0;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    border-radius: 2em;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+
+}
+
+.staff-photo {
+    margin-bottom: 20px;
+}
+
+.staff-photo>img {
+    width: 300px;
+    height: 300px;
+    margin-bottom: ;
+}
+
 /* heading */
 .heading {
     margin-bottom: 15px;
@@ -275,4 +314,80 @@ a:hover img {
 .menu-list>.col {
     text-align: center;
     border: 1px solid #d8c7a0;
+    margin-bottom: 20px;
+}
+
+.col>p {
+    margin: 15px;
+}
+
+/* access */
+
+.add {
+    text-align: center;
+}
+
+.add p {
+    margin-top: 15px;
+}
+
+.btn-tel {
+    display: inline-block;
+    background-color: #d8c7a0;
+    border-radius: 2em;
+    color: #fff;
+    padding: 8px 0;
+    font-size: 18px;
+    width: 70%;
+    max-width: 200px;
+    text-decoration-line: none;
+}
+
+/* banner */
+
+.banner-list li {
+    border: #fff 5px solid;
+    box-sizing: border-box;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 50%);
+    width: fit-content;
+}
+
+/* footer */
+
+.footer {
+    padding: 20px 0;
+    background: #d8c7a0;
+}
+
+.footer-info-list {
+    margin-bottom: 20px;
+}
+
+.footer-info-list dt {
+    float: left;
+    clear: left;
+    margin-bottom: 10px;
+    display: block;
+    width: 7em;
+}
+
+.footer-info-list dd {
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.sns {
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.sns a {
+    display: block;
+    background: #fff;
+    color: #d8c7a0;
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
 }
