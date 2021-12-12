@@ -256,6 +256,26 @@ a:hover img {
     background: #ecdfc2;
 }
 
+/* contents */
+
+/* menu-list */
+
+.menu-list>.col {
+    text-align: center;
+    border: 1px solid #d8c7a0;
+    margin-bottom: 20px;
+}
+
+.col>p {
+    margin: 15px;
+}
+
+.pc-grid-col3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 /* information */
 
 .info-list {
@@ -310,17 +330,7 @@ a:hover img {
     font-weight: normal;
 }
 
-/* menu-list */
 
-.menu-list>.col {
-    text-align: center;
-    border: 1px solid #d8c7a0;
-    margin-bottom: 20px;
-}
-
-.col>p {
-    margin: 15px;
-}
 
 /* access */
 
