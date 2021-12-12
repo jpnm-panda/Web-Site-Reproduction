@@ -176,6 +176,7 @@ a:hover img {
     height: 500px;
     background: url(../img/bg_header.jpg) center no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 .header-title {
@@ -377,9 +378,19 @@ a:hover img {
     margin-bottom: 10px;
 }
 
+.footer-info-ph img {
+    box-sizing: border-box;
+    border: 5px solid #fff;
+}
+
 .sns {
     margin-bottom: 15px;
     text-align: center;
+
+}
+
+.sns li {
+    display: inline-block;
 }
 
 .sns a {
@@ -390,4 +401,49 @@ a:hover img {
     padding: 10px 20px;
     text-decoration: none;
     font-size: 20px;
+}
+
+.sns a:hover {
+    opacity: 0.7;
+}
+
+.copyright {
+    text-align: center;
+}
+
+/* pagetop */
+.pagetop {
+    position: fixed;
+    right: 10px;
+    bottom: 70px;
+
+}
+
+.pagetop a {
+    box-sizing: border-box;
+    display: block;
+    width: 45px;
+    height: 45px;
+    background: rgba(255, 255, 255, 50%);
+    border-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+
+.pagetop a:hover {
+    background: rgba(255, 255, 255, 80%);
+    color: #59220d;
+}
+
+.pagetop a::before {
+    content: "";
+    display: block;
+    width: 10px;
+    height: 10px;
+    margin: auto;
+    border-top: 1px solid #59220d;
+    border-right: 1px solid #59220d;
+    transform: rotate(-45deg);
 }
