@@ -173,7 +173,7 @@ a:hover img {
 
 /* header */
 .header {
-    height: 500px;
+    height: calc(100vh - 60px);
     background: url(../img/bg_header.jpg) center no-repeat;
     background-size: cover;
     position: relative;
@@ -233,6 +233,7 @@ a:hover img {
 
 .gnav {
     background: #d8c7a0;
+    font-family: 'Cardo', serif;
 }
 
 .gnav ul {
@@ -291,6 +292,49 @@ a:hover img {
 
 }
 
+/* heading */
+.heading {
+    margin-bottom: 15px;
+    border-bottom: 1px solid #4d941a;
+    color: #4d941a;
+    font-size: 20px;
+    font-weight: normal;
+    font-family: 'Cardo', serif;
+}
+
+.heading::before {
+    content: "";
+    display: inline-block;
+    width: 35px;
+    height: 26px;
+    margin-right: 5px;
+    background: url(../img/ico_pot.svg) no-repeat;
+    position: relative;
+    bottom: -3px;
+}
+
+.heading>.more {
+    background: #4d941a;
+    color: #fff;
+    float: right;
+    padding: 5px 5px 5px 10px;
+    border-radius: 2em;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 1;
+}
+
+.heading .more::after {
+    content: "";
+    display: inline-block;
+    margin-left: 5px;
+    width: 0;
+    height: 0;
+    border: transparent solid 5px;
+    border-left-color: #fff;
+    vertical-align: middle;
+}
+
 /* information */
 
 .info-list {
@@ -339,8 +383,6 @@ a:hover img {
 
 .staff-photo>img {
     width: 300px;
-    height: 300px;
-    margin-bottom: ;
 }
 
 #staff {
@@ -349,17 +391,6 @@ a:hover img {
             #fff 10px, #fcf2d9 10px, #fcf2d9 20px);
     box-sizing: border-box;
 }
-
-/* heading */
-.heading {
-    margin-bottom: 15px;
-    border-bottom: 1px solid #4d941a;
-    color: #4d941a;
-    font-size: 20px;
-    font-weight: normal;
-}
-
-
 
 /* access */
 
